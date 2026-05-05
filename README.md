@@ -14,6 +14,19 @@ data class Hussain(
     val shipping: String = "Production Android + KMP/CMP side projects + Ktor backends",
     val openTo: List<String> = listOf("Senior Android", "KMP", "Full-stack Kotlin")
 )
+
+@Composable
+@Preview
+fun HussainProfile() {
+    val me = remember { Hussain() }
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Hero(role = me.role, company = me.company, location = me.location)
+        Now("Shipping Chirp on KMP/CMP, refining Android at Kay Tech.")
+        Stack(items = me.stack)
+        Pinned()  // ↓ rendered by GitHub below this README
+        Reach(portfolio = true, linkedIn = true, email = true)
+    }
+}
 ```
 
 Started at Kay Technology in 2017 as a Researcher on hardware and 3D-printing projects, then moved into mobile engineering in 2022. Now leading the Android product end to end.
@@ -39,17 +52,6 @@ Started at Kay Technology in 2017 as a Researcher on hardware and 3D-printing pr
 ![Room](https://img.shields.io/badge/Room-4285F4?style=flat&logo=android&logoColor=white)
 ![Bitrise](https://img.shields.io/badge/Bitrise-683D87?style=flat&logo=bitrise&logoColor=white)
 ![Material_3](https://img.shields.io/badge/Material_3-757575?style=flat&logo=materialdesign&logoColor=white)
-
-#### Featured projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| [Chirp](https://github.com/IronManYG/Chirp) | Cross-platform messenger (Android · iOS · Desktop) | KMP, CMP, Spring Boot, FCM |
-| [EchoJournal](https://github.com/IronManYG/EchoJournal) | Audio journaling app, voice memos with mood/topic tagging | Compose, MVI, Room |
-| [ScribbleDash](https://github.com/IronManYG/ScribbleDash) | Compose drawing app (1:1 canvas, undo/redo) | Compose, MVI, Material 3 |
-| [PlantPediaZ](https://github.com/IronManYG/PlantPediaZ) | Plants vs. Zombies 2 guide (PvZ2 API) | Compose, multi-module, MVVM/MVI |
-| [Translator KMM](https://github.com/IronManYG/Translator_KMM) | 28-language translator (Android + iOS) | KMM, Ktor, SQLDelight |
-| [hussain-portfolio](https://github.com/IronManYG/hussain-portfolio) | This portfolio site (bilingual EN/AR) | Eleventy, Tailwind |
 
 #### GitHub stats
 
