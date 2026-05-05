@@ -1,8 +1,22 @@
 ### Hi, I'm Hussain Gaddal
 
-**Android Developer at Kay Technology · Riyadh, Saudi Arabia**
+```kotlin
+data class Hussain(
+    val role: String = "Android Developer",
+    val company: String = "Kay Technology",
+    val location: String = "Riyadh, Saudi Arabia",
+    val years: Int = 4,
+    val stack: List<String> = listOf(
+        "Kotlin", "Jetpack Compose",
+        "Kotlin Multiplatform", "Compose Multiplatform",
+        "Ktor", "Spring Boot"
+    ),
+    val shipping: String = "Production Android + KMP/CMP side projects + Ktor backends",
+    val openTo: List<String> = listOf("Senior Android", "KMP", "Full-stack Kotlin")
+)
+```
 
-I build Kotlin and Compose apps that hold up in production: large multi-module Android, KMP/CMP across Desktop and iOS, and the Ktor backends behind them. 4+ years at Kay Technology, started as a Researcher on hardware and 3D-printing projects (2017–2022), now leading the Android product (since 2022).
+Started at Kay Technology in 2017 as a Researcher on hardware and 3D-printing projects, then moved into mobile engineering in 2022. Now leading the Android product end to end.
 
 [Portfolio](https://ironmanyg.github.io/hussain-portfolio/) · [LinkedIn](https://www.linkedin.com/in/hussaingaddal/) · [hussain.yg2010@gmail.com](mailto:hussain.yg2010@gmail.com)
 
@@ -43,8 +57,3 @@ I build Kotlin and Compose apps that hold up in production: large multi-module A
   <img src="https://github-readme-stats.vercel.app/api?username=IronManYG&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="160" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IronManYG&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="160" />
 </a>
-
----
-
-##### مرحبًا
-مطوّر تطبيقات أندرويد من الرياض. أعمل بـ Kotlin وJetpack Compose وKMP/CMP، وأبني الواجهات الخلفية بـ Ktor وSpring Boot. شف [معرض أعمالي بالعربي](https://ironmanyg.github.io/hussain-portfolio/ar/).
