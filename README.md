@@ -1,3 +1,5 @@
+![Hussain Gaddal — Android · Kotlin Multiplatform](https://ironmanyg.github.io/hussain-portfolio/assets/img/branding/github_readme_hero.png)
+
 ### Hi, I'm Hussain Gaddal
 
 ```kotlin
