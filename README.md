@@ -23,7 +23,7 @@ fun HussainProfile() {
     val me = remember { Hussain() }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Hero(role = me.role, company = me.company, location = me.location)
-        Now("Shipping Chirp on KMP/CMP, refining Android at Kay Tech.")
+        Now("Sifr live on Google Play · shipping Chirp on KMP/CMP · leading Android at Kay Tech.")
         Stack(items = me.stack)
         Pinned()  // ↓ rendered by GitHub below this README
         Reach(portfolio = true, linkedIn = true, email = true)
@@ -40,6 +40,7 @@ Started at Kay Technology in 2017 as a Researcher on hardware and 3D-printing pr
 #### What I'm working on
 
 - **Kay Technology** — leading the Android product. Migrated a legacy Java/XML codebase to Kotlin and Compose (40% crash reduction), built reusable in-house SDKs (25% faster delivery), set the multi-module Clean Architecture/MVI standard plus a Bitrise CI/CD pipeline, and built the Ktor microservices behind it.
+- **Sifr** — my Material 3 calculator, live on Google Play. Hand-written expression engine, five hand-crafted palettes plus Material You, and 11 languages with full RTL. [Case study](https://ironmanyg.github.io/hussain-portfolio/sifr/).
 - **Side builds in KMP/CMP** — shipping to Android, iOS, and Desktop from one codebase. See pinned repos.
 
 #### Stack
@@ -54,3 +55,4 @@ Started at Kay Technology in 2017 as a Researcher on hardware and 3D-printing pr
 ![Room](https://img.shields.io/badge/Room-4285F4?style=flat&logo=android&logoColor=white)
 ![Bitrise](https://img.shields.io/badge/Bitrise-683D87?style=flat&logo=bitrise&logoColor=white)
 ![Material_3](https://img.shields.io/badge/Material_3-757575?style=flat&logo=materialdesign&logoColor=white)
+
